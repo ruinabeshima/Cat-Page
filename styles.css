@@ -28,14 +28,36 @@ header, .intro {
   justify-content: space-between; 
 }
 
+.header-link > a {
+  text-decoration: none; 
+  margin-left: 1rem; 
+}
+
 .intro {
   margin-top: 3rem; 
   margin-bottom: 3rem; 
+  width: 70%; 
+}
+
+.sign-up {
+  width: 5rem; 
+  margin-top: 1rem; 
+  border-radius: 0.5rem; 
+  padding-top: 1rem; 
+  padding-bottom: 1rem; 
+  border: 1px solid black; 
+  background-color: #3882F6;
 }
 
 .header-logo > h1 {
   font-size: 24px; 
   color: #F9FAF8;  
+}
+
+.intro-description {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
 }
 
 .intro-description > h1 {
