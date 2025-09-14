@@ -3,6 +3,7 @@
   padding: 0; 
   box-sizing: border-box; 
   font-family: "Roboto", sans-serif;
+  border: 1px solid red; 
 }
 
 body {
@@ -58,4 +59,34 @@ header, .intro {
 #cat-hero {
   height: auto; 
   width: 25rem;  
+}
+
+.cat-info {
+  margin-top: 4rem;
+  width: 70%; 
+}
+
+.cat-info > h1 { 
+  text-align: center; 
+}
+
+.info-box {
+  display: flex; 
+  justify-content: space-evenly; 
+  padding-top: 2rem; 
+  padding-bottom: 2rem; 
+}
+
+.cat-info-pic {
+  height: 10rem; 
+  width: 10em; 
+}
+
+.quote {
+  margin-top: 5rem; 
+  width: 100%; 
+  height: 15rem; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
 }
