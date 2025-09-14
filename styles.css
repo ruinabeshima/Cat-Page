@@ -3,7 +3,6 @@
   padding: 0; 
   box-sizing: border-box; 
   font-family: "Roboto", sans-serif;
-  border: 1px solid red; 
 }
 
 body {
@@ -77,6 +76,13 @@ header, .intro {
   padding-bottom: 2rem; 
 }
 
+.info > p {
+  text-align: center; 
+  width: 10rem; 
+  height: auto; 
+  margin-bottom: 1rem; 
+}
+
 .cat-info-pic {
   height: 10rem; 
   width: 10em; 
@@ -90,6 +96,14 @@ header, .intro {
   justify-content: center; 
   align-items: center; 
   background-color: #E5E7EB; 
+}
+
+.quote > h2 {
+  width: 70%; 
+  font-size: 36px; 
+  color: #1F2937; 
+  font-weight: 300; 
+  font-style: italic;
 }
 
 .please-sign-up {
@@ -134,6 +148,16 @@ header, .intro {
   padding: 1rem; 
   font-weight: bold; 
 }
+
+.footer {
+  padding-top: 1.5rem; 
+  padding-bottom: 1.5rem; 
+  width: 100%; 
+  text-align: center; 
+  background-color: #1F2937; 
+  color: #E5E7EB;
+}
+
 
 
 
