@@ -49,7 +49,7 @@ header, .intro {
 
 .header-link > a, .intro-description > p {
   font-size: 18px; 
-  color: #E5E7EB
+  color: #E5E7EB;
 }
 
 .intro-description > p {
@@ -85,8 +85,55 @@ header, .intro {
 .quote {
   margin-top: 5rem; 
   width: 100%; 
-  height: 15rem; 
+  height: 20rem; 
   display: flex; 
   justify-content: center; 
   align-items: center; 
+  background-color: #E5E7EB; 
 }
+
+.please-sign-up {
+  padding-top: 8rem; 
+  padding-bottom: 8rem; 
+  width: 100%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  height: 10rem; 
+}
+
+.sign-up-box {
+  background-color: #3882F6; 
+  width: 80%; 
+  display: flex;
+  justify-content: center; 
+  border-radius: 0.5rem; 
+  padding-top: 2rem; 
+  padding-bottom: 2rem; 
+}
+
+.sign-up-text {
+  margin-right: 10rem; 
+}
+
+.sign-up-text > h2, .sign-up-text > p {
+  color: #E5E7EB; 
+}
+
+.sign-up-button {
+  margin-left: 10rem; 
+  display: flex; 
+  align-items: center; 
+}
+
+.sign-up-button > button {
+  border: 1px solid #E5E7EB; 
+  border-radius: 0.5rem; 
+  background-color: #3882F6;
+  color: #E5E7EB; 
+  padding: 1rem; 
+  font-weight: bold; 
+}
+
+
+
