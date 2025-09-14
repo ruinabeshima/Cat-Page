@@ -2,4 +2,60 @@
   margin: 0; 
   padding: 0; 
   box-sizing: border-box; 
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  min-height: 100vh; 
+  width: 100vw; 
+}
+
+.hero {
+  background-color: #1F2937; 
+  width: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  padding-top: 1rem; 
+}
+
+header, .intro {
+  width: 80%; 
+  display: flex; 
+  justify-content: space-between; 
+}
+
+.intro {
+  margin-top: 3rem; 
+  margin-bottom: 3rem; 
+}
+
+.header-logo > h1 {
+  font-size: 24px; 
+  color: #F9FAF8;  
+}
+
+.intro-description > h1 {
+  font-size: 48px; 
+  color: #F9FAF8; 
+  font-weight: 900; 
+  width: 70%; 
+  margin-bottom: 2rem; 
+}
+
+.header-link > a, .intro-description > p {
+  font-size: 18px; 
+  color: #E5E7EB
+}
+
+.intro-description > p {
+  margin-bottom: 1rem; 
+}
+
+#cat-hero {
+  height: auto; 
+  width: 25rem;  
 }
